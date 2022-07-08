@@ -1,0 +1,16 @@
+.breadcrumbs {
+  width: 100%;
+  height: auto;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: auto;
+  display: flex;
+}
+.breadcrumbs li {
+  list-style: none;
+  font-size: 1vw;
+}
+.breadcrumbs li::after {
+  content: "/";
+  padding: 0 1vw;
+}
